@@ -8,7 +8,7 @@
 /* Colors */
 :root {
   --color-default: #364d59;
-  --color-primary: #feb900;
+  --color-primary: #f1f12e;
   --color-secondary: #52565e;
 }
 
@@ -26,8 +26,13 @@ body {
   overflow-x: hidden;
 /*  background-color: #ccc;*/
 /*  background: rgb(220,226,204);*/
-  background: linear-gradient(196deg, rgba(220,226,204,1) 28%, rgba(232,233,229,1) 71%);
+/*  background: linear-gradient(196deg, rgba(220,226,204,1) 28%, rgba(232,233,229,1) 71%);*/
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(214,213,217,1) 98%);
 
+/*background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,244,133,1) 98%);
+*/
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment:fixed;
