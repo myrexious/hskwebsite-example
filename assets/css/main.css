@@ -8,7 +8,7 @@
 /* Colors */
 :root {
   --color-default: #364d59;
-  --color-primary: #f1f12e;
+  --color-primary: #feb900;
   --color-secondary: #52565e;
 }
 
@@ -1456,6 +1456,13 @@ ntent{
   align-items: center;
 }*/
 
+.stats-item > div {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .stats-counter .stats-item i {
   font-size: 40px;
   line-height: 0;
@@ -1479,15 +1486,13 @@ ntent{
   font-family: var(--font-primary);
   font-size: 20px;
   font-weight: 600;
+  display:flex;
+  justify-content: center;
   align-items: center;
 }
 
 .stats-box{
-  /*background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
-  background-position: center;*/
-  height: 240px;  /* Set a specific height that works for your design */
-  /*border: 1px solid #feb900;
-  border-radius: 10%;*/
+  height: 240px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1498,15 +1503,8 @@ ntent{
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3)
-/*  border: 1px solid #ccc;  /* Optional: A border to visually see the boxes. You can remove it if not needed. */*/
-/*  padding: 0 25px;*/
 }
-/*
-.counter-container{
-  background-color: rgba(255, 255, 255, .15);  
-  backdrop-filter: blur(5px);
-}
-*/
+
 /*--------------------------------------------------------------
 # Service Cards Section
 --------------------------------------------------------------*/
@@ -1533,6 +1531,33 @@ ntent{
   margin-right: 6px;
 }
 
+/*--------------------------------------------------------------
+# Sustainability and Contact Us Section (Home)
+--------------------------------------------------------------*/
+.index-btn {
+  display: inline-block;
+  padding: 10px 20px; 
+  background-color: #3498db; 
+  color: #ffffff; 
+  border: none;
+  border-radius: 4px; 
+  text-decoration: none; 
+  font-weight: bold; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  align-items: center;
+}
+
+.index-btn:hover {
+  background-color: #2980b9;
+}
+
+.btn-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
 
 /*--------------------------------------------------------------
 # Service Details Section
