@@ -1866,6 +1866,7 @@ table.data-table-total-capacity {
 .data-table-total-capacity{
   border-collapse: separate;
   border-spacing: 0 5px;
+  width: 100%;
   margin: 25px 0;
   transition: all 0.3s ease-in-out;
   font-family: 'Poppins', sans-serif;
