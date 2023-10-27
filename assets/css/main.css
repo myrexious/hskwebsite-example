@@ -881,8 +881,8 @@ section {
   width: 520px;
   height: 350px;
 /*  border: 1px solid #feb900;*/
-transition: 0.5s ease-in-out;
-box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 25px;
+  transition: 0.5s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 25px;
 }
 
 .gallery .gallery-card img{
@@ -907,29 +907,29 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 25px;
 }
 
 .gallery-card:not(:first-child){
-  margin-left: -10px;
+/*  margin-left: -10px;*/
 }
 
 .gallery-card:nth-child(1):hover {
-  transform: translateY(-15px);
+/*  transform: translateY(-15px);*/
   font-weight: bold;
   cursor: pointer;
 }
 
 .gallery-card:nth-child(2):hover {
-  transform: translateY(-15px);
+/*  transform: translateY(-15px);*/
   font-weight: bold;
   cursor: pointer;
 }
 
 .gallery-card:nth-child(3):hover {
-  transform: translateY(-15px);
+/*  transform: translateY(-15px);*/
   font-weight: bold;
   cursor: pointer;
 }
 
 .gallery-card:hover ~ .gallery-card {
-  left:20px;
+/*  left:20px;*/
 }
 
 
@@ -1915,10 +1915,23 @@ table.data-table-total-capacity {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-/*.contact .info-item {
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
-  padding: 20px 0 30px 0;
+
+.info-item-header {
+  align-self: flex-start;
+  display:flex;
+  align-items: center;
+  gap: 10px;
 }
+
+.info-item-header h3{
+  margin: 0;
+}
+
+.address-col {
+  flex: 1;
+  padding: 10px;
+}
+
 */
 .contact .info-item {
   background: rgba(255, 255, 255, 0.08); /* Subtle background */
@@ -1933,31 +1946,12 @@ table.data-table-total-capacity {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-/*.contact .info-item i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 56px;
-  height: 56px;
-  font-size: 24px;
-  line-height: 0;
-  color: var(--color-primary);
-  border-radius: 50%;
-  border: 2px dotted #ffd565;
-}
-*/
+
 .contact .info-item i {
   font-size: 32px;
   margin-bottom: 10px;
 }
 
-
-/*.contact .info-item h3 {
-  font-size: 20px;
-  color: #6c757d;
-  font-weight: 700;
-  margin: 10px 0;
-}*/
 
 .contact .info-item h3 {
   font-size: 24px;
@@ -1972,12 +1966,6 @@ table.data-table-total-capacity {
   margin-bottom: 0;
 }
 
-/*.contact .php-email-form {
-  width: 100%;
-  background: #fff;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
-  padding: 30px;
-}*/
 
 .contact .php-email-form {
   background: rgba(255, 255, 255, 0.08);
