@@ -145,6 +145,54 @@
         </div>
       </section>
       <!-- End Locations Section -->
+      <!-- ======= Stats Counter Section ======= -->
+      <!-- <section id="stats-counter" class="stats-counter section-bg">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center stats-box">
+                <i class="bi bi-check-square color-blue flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="100000000" data-purecounter-duration="1" class="purecounter" data-format="comma"></span>
+                  <p class="counter-title">Total EVA Midsoles Produced</p>
+                </div>
+              </div>
+            </div>
+       
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center stats-box">
+                <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="7200000" data-purecounter-duration="1" class="purecounter" data-format="comma"></span>
+                  <p class="counter-title">Yearly Production Capacity</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center stats-box">
+                <i class="bi bi-currency-dollar color-green flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="100000000" data-purecounter-duration="1" class="purecounter" data-format="comma"></span>
+                  <p class="counter-title">Total Investment</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center stats-box">
+                <i class="bi bi-people color-pink flex-shrink-0"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="5000" data-purecounter-duration="1" class="purecounter" data-format="comma"></span>
+                  <p class="counter-title">Total Workers</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section> -->
+      <!-- End Stats Counter Section -->
       <!-- ======= Services Section ======= -->
       <section id="services" class="services">
         <div class="container" data-aos="fade-up">
@@ -189,11 +237,13 @@
               <div class="gallery-card">
                 <img src="assets/img/stockfitline.jpg">
                 <div class="card-image-overlay">
-                      <p class="card-overlay-text">Stockfit</p>
+                      <p class="card-overlay-text">Painting</p>
                     </div>
               </div>
             </div>
-
+            <div class = "btn-container">
+                <a href="contact.html" class="index-btn">Learn More</a>
+              </div>
           </div>
         </div>
 
@@ -547,42 +597,5 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Counter comma formatting and load everytime refresh -->
-    <script>
-      window.onload = function() { // Using window.onload to ensure all scripts are loaded and initialized
-        console.log("Window loaded");
-        setTimeout(function() { // Give some additional time after all scripts are loaded
-          console.log("Initializing counters");
-          // Reset all counters to their start values
-          var allCounters = document.querySelectorAll('.purecounter');
-          allCounters.forEach(function(counter) {
-            console.log("Setting counter start value for", counter);
-            counter.innerText = counter.getAttribute('data-purecounter-start');
-          });
-          // Add a MutationObserver to format numbers with commas
-          var commaCounters = document.querySelectorAll('.purecounter[data-format="comma"]');
-          commaCounters.forEach(function(counter) {
-            console.log("Setting up MutationObserver for", counter);
-            var targetValue = parseInt(counter.getAttribute('data-purecounter-end'), 10);
-            var observer = new MutationObserver(function(mutations) {
-              mutations.forEach(function(mutation) {
-                var currentValue = parseInt(mutation.target.textContent.replace(/,/g, ''), 10);
-                if (currentValue === targetValue) {
-                  console.log("Formatting counter with commas for", mutation.target);
-                  mutation.target.textContent = currentValue.toLocaleString('en-US');
-                  // Keeping the observer connected for now
-                }
-              });
-            });
-            var config = {
-              childList: true,
-              subtree: true,
-              characterData: true
-            };
-            observer.observe(counter, config);
-          });
-        }, 1000); // Wait for an additional second before initializing counters
-      }
-    </script>
   </body>
 </html>
