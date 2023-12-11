@@ -25,3 +25,31 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.myHero {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 25;
+}
+
+.fullImage {
+  width: 100%;
+  height: calc(100vw * 0.5625);
+  object-fit: cover;
+}
+
+.autoscroller {
+  display: flex;
+  animation: swipe 20000ms linear infinite backwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
