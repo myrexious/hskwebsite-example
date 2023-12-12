@@ -23,8 +23,8 @@ const Gallery = ({ content }: { content: string[] }) => {
         className="mySwiper"
       >
         {content.map((item: string, index: number) => (
-          <SwiperSlide>
-            <img src={item} key={index}></img>
+          <SwiperSlide key={index}>
+            <img src={item} alt={item} key={index}></img>
           </SwiperSlide>
         ))}
 
