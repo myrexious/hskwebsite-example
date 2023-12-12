@@ -51,7 +51,7 @@ const CarouselHero = ({ contentImage }: { contentImage: string[] }) => {
                 fill={true}
                 key={index}
               />
-              <img src={item} className='fullImage' style={{ objectFit: 'cover' }} />
+              <img src={item} alt={item} className='fullImage' style={{ objectFit: 'cover' }} />
             </SwiperSlide>
           ))}
         </Swiper>
