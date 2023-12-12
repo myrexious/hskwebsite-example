@@ -89,7 +89,7 @@ const Home = () => {
           <div className='flex flex-row relative text-center justify-center min-w-full space-x-10 lg:space-x-20'>
             <div className='relative aspect-square h-36 md:h-48 bg-white-200 rounded-full shadow-xl'>
               <Image
-                src="/images/factory-photo/HSKJ_Solar.png"
+                src="./images/factory-photo/HSKJ_Solar.png"
                 alt="HSKJ Solar"
                 fill
                 className='rounded-full'
@@ -98,7 +98,7 @@ const Home = () => {
             </div>
             <div className='relative aspect-square h-36 md:h-48 bg-white-200 rounded-full shadow-xl'>
               <Image
-                src="/images/factory-photo/HSKR_Solar.png"
+                src="./images/factory-photo/HSKR_Solar.png"
                 alt="HSKR Solar"
                 fill
                 className='rounded-full'
@@ -120,7 +120,7 @@ const Home = () => {
           <div className='flex flex-row lg:flex-row flex-wrap lg:flex-nowrap items-center justify-center'>
             <div className='relative aspect-square h-80 bg-white-200 rounded-3xl shadow-xl lg:mr-8 lg:mb-4'>
               <Image
-                src="/images/factory-photo/HSKR_Internal_001.jpg"
+                src="./images/factory-photo/HSKR_Internal_001.jpg"
                 alt="HSKR Solar"
                 fill
                 className='rounded-3xl'

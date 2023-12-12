@@ -9,7 +9,7 @@ const Offerings = () => {
           <div className='flex flex-row flex-wrap lg:flex-nowrap justify-center items-center space-x-8'>
             <div className='relative aspect-square h-80 sm:md:my-4'>
               <Image
-                src="/images/factory-machines/IP_machine.jpg"
+                src="./images/factory-machines/IP_machine.jpg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -27,7 +27,7 @@ const Offerings = () => {
           <div className='flex flex-row-reverse flex-wrap lg:flex-nowrap justify-center items-center mt-24 space-x-8 lg:space-x-0'>
             <div className='relative max-w-sm md:max-w-md aspect-square h-80 sm:md:my-4 lg:ml-8'>
               <Image
-                src="/images/factory-machines/auto_cmeva.png"
+                src="./images/factory-machines/auto_cmeva.png"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -45,7 +45,7 @@ const Offerings = () => {
           <div className='flex flex-row flex-wrap lg:flex-nowrap justify-center items-center space-x-8 mt-28'>
             <div className='relative aspect-square h-80 sm:md:my-4'>
               <Image
-                src="/images/factory-materials/eva_pellet.jpg"
+                src="./images/factory-materials/eva_pellet.jpg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -63,7 +63,7 @@ const Offerings = () => {
           <div className='flex flex-row-reverse flex-wrap lg:flex-nowrap justify-center items-center mt-28 space-x-8 lg:space-x-0'>
             <div className='relative max-w-sm md:max-w-md aspect-square h-80 sm:md:my-4 lg:ml-8'>
               <Image
-                src="/images/factory-machines/coldshot_rotary.jpg"
+                src="./images/factory-machines/coldshot_rotary.jpg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -81,7 +81,7 @@ const Offerings = () => {
           <div className='flex flex-row flex-wrap lg:flex-nowrap justify-center items-center space-x-8 mt-24'>
             <div className='relative aspect-square h-80 sm:md:my-4'>
               <Image
-                src="/images/factory-machines/stockfitline.jpg"
+                src="./images/factory-machines/stockfitline.jpg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -98,7 +98,7 @@ const Offerings = () => {
           <div className='flex flex-row-reverse flex-wrap lg:flex-nowrap justify-center items-center mt-24 space-x-8 lg:space-x-0'>
             <div className='relative max-w-sm md:max-w-md aspect-square h-80 sm:md:my-4 lg:ml-8'>
               <Image
-                src="/images/factory-machines/cmpMachine.jpeg"
+                src="./images/factory-machines/cmpMachine.jpeg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
