@@ -25,7 +25,7 @@ const NavBar = () => {
 
   return (
     <div className={header ? "sticky fixed min-w-full top-0 z-50 start-0" : "absolute min-w-full top-0 z-50 start-0"}>
-      <div className="navbar backdrop-filter backdrop-blur-lg bg-opacity-90">
+      <div className="navbar backdrop-filter backdrop-blur-lg backdrop-brightness-125 bg-opacity-90">
         <div className="btn btn-ghost text-xl">
           <Link href='/'>
             <Image
