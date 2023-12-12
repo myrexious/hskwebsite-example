@@ -29,7 +29,7 @@ const NavBar = () => {
         <div className="btn btn-ghost text-xl">
           <Link href='/'>
             <Image
-              src="./images/logo/hsk_logo.png"
+              src={"/images/logo/hsk_logo.png"}
               alt="HSK Logo"
               width={95}
               height={50}

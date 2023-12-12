@@ -15,7 +15,7 @@ const Jepara = () => {
           <div className='flex flex-row-reverse flex-wrap lg:flex-nowrap justify-center items-center mt-8'>
             <div className='relative max-w-sm md:max-w-md aspect-video h-48 sm:md:my-4 lg:ml-10'>
               <Image
-                src="./images/factory-photo/HSKJ_001.jpg"
+                src="/images/factory-photo/HSKJ_001.jpg"
                 alt="people"
                 fill
                 style={{ objectFit: 'contain' }}
@@ -31,7 +31,7 @@ const Jepara = () => {
           <div className='flex flex-row flex-wrap lg:flex-nowrap justify-center items-center lg:space-x-10'>
             <div className='relative aspect-[3/4] h-72 sm:md:my-4'>
               <Image
-                src="./images/factory-photo/HSKJ_Internal_001.jpg"
+                src="/images/factory-photo/HSKJ_Internal_001.jpg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}

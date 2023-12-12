@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Sustainability = () => {
   return (
     <>
-      <div className="hero h-[36rem]" style={{ backgroundImage: 'url(./images/stock/solar_plant.jpg)' }}>
+      <div className="hero h-[36rem]" style={{ backgroundImage: 'url(/images/stock/solar_plant.jpg)' }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
@@ -17,7 +17,7 @@ const Sustainability = () => {
           <div className='flex flex-row flex-wrap lg:flex-nowrap space-x-5 lg:space-x-10 justify-center'>
             <div className='relative aspect-video lg:aspect-[3/4] h-36 md:h-56 lg:h-[36rem] sm:md:my-4'>
               <Image
-                src="./images/stock/solar_panel_002.jpg"
+                src="/images/stock/solar_panel_002.jpg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -45,7 +45,7 @@ const Sustainability = () => {
           <div className='flex flex-row-reverse flex-wrap lg:flex-nowrap space-x-5 lg:space-x-10 justify-center'>
             <div className='relative aspect-video lg:aspect-square h-36 md:h-56 lg:h-[28rem] sm:md:my-4'>
               <Image
-                src="./images/factory-materials/biocompound.jpg"
+                src="/images/factory-materials/biocompound.jpg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -73,7 +73,7 @@ const Sustainability = () => {
           <div className='flex flex-row flex-wrap lg:flex-nowrap space-x-5 lg:space-x-10 justify-center items-center'>
             <div className='relative aspect-video lg:aspect-square h-36 md:h-56 lg:h-[24rem] sm:md:my-4'>
               <Image
-                src="./images/factory-machines/eva_recycle_001.jpeg"
+                src="/images/factory-machines/eva_recycle_001.jpeg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
