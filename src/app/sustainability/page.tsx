@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Sustainability = () => {
   return (
     <>
-      <div className="hero h-[36rem]" style={{ backgroundImage: 'url(/images/stock/solar_plant.jpg)' }}>
+      <div className="hero h-[36rem]" style={{ backgroundImage: 'url(./images/stock/solar_plant.jpg)' }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
