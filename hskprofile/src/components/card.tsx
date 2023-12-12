@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Card = ({ data }: { data: cardData }) => {
@@ -11,11 +12,11 @@ const Card = ({ data }: { data: cardData }) => {
           <h2 className="card-title text-xl md:text-2xl font-bold">{data.title}</h2>
           <p className="text-sm" style={{ whiteSpace: 'pre-line' }}>{data.desc}</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-outline">
+            <Link href={data.link} className="btn btn-outline">
               <span className='px-2'>
                 More
               </span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>

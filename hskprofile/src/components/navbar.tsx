@@ -1,12 +1,40 @@
+'use client'
+
+import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import { useEffect, useState } from 'react'
 
 const NavBar = () => {
+  const [header, setHeader] = useState(false);
+
+  const scrollHeader = () => {
+    if (window.scrollY >= 20) {
+      setHeader(true);
+    } else {
+      setHeader(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', scrollHeader)
+
+    return () => {
+      window.addEventListener('scroll', scrollHeader)
+    }
+  }, []);
+
   return (
-    <div className="sticky top-0 z-50">
-      <div className="navbar backdrop-filter backdrop-blur-lg bg-opacity-30">
+    <div className={header ? "sticky fixed min-w-full top-0 z-50 start-0" : "absolute min-w-full top-0 z-50 start-0"}>
+      <div className="navbar backdrop-filter backdrop-blur-lg bg-opacity-90">
         <div className="btn btn-ghost text-xl">
-          <Link href='/'>LOGO</Link>
+          <Link href='/'>
+            <Image
+              src="/images/logo/hsk_logo.png"
+              alt="HSK Logo"
+              width={95}
+              height={50}
+            />
+          </Link>
         </div>
         <div className="navbar">
         </div>
@@ -28,9 +56,9 @@ const NavBar = () => {
                     <Link className="text-lg" href='/about'>About</Link>
                   </summary>
                   <ul className="p-2">
-                    <li><a>HSK Tangerang</a></li>
-                    <li><a>HSK Jepara</a></li>
-                    <li><a>HSK Lembang</a></li>
+                    <li><Link href="/about?branch=tangerang">HSK Tangerang</Link></li>
+                    <li><Link href="/about?branch=jepara">HSK Jepara</Link></li>
+                    <li><Link href="/about?branch=rembang">HSK Rembang</Link></li>
                   </ul>
                 </details>
               </li>
@@ -45,7 +73,7 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <div className="flex-none hidden lg:flex">
+          <div className="flex-none hidden lg:flex font-semibold text-black">
             <ul className="menu menu-horizontal px-8">
               <li>
                 <Link className="text-lg" href='/'>Home</Link>
@@ -56,15 +84,9 @@ const NavBar = () => {
                     <Link className="text-lg" href='/about'>About</Link>
                   </summary>
                   <ul className="p-2 rounded-t-none">
-                    <li>
-                      <a>HSK Tangerang</a>
-                    </li>
-                    <li>
-                      <a>HSK Jepara</a>
-                    </li>
-                    <li>
-                      <a>HSK Lembang</a>
-                    </li>
+                    <li><Link href="/about?branch=tangerang">HSK Tangerang</Link></li>
+                    <li><Link href="/about?branch=jepara">HSK Jepara</Link></li>
+                    <li><Link href="/about?branch=rembang">HSK Rembang</Link></li>
                   </ul>
                 </details>
               </li>

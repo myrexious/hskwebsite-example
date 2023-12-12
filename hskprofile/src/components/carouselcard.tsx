@@ -17,7 +17,7 @@ const CarouselCard = ({ data }: { data: cardData[] }) => {
         centeredSlides={true}
         modules={[Navigation]}>
         {data.map((item, index) => (
-          <SwiperSlide>
+          <SwiperSlide key={index}>
             <div className='flex items-center align-center justify-center md:mb-8'>
               <Card data={item} key={index}/>
             </div>

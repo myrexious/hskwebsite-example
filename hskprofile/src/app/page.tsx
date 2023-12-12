@@ -29,22 +29,7 @@ const Home = () => {
 
   return (
     <>
-      <CarouselHero contentImage={carouselImages}>
-        <div className="hero min-w-screen">
-          <div className="hero-overlay bg-opacity-70">
-          </div>
-          <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-prose">
-              <h1 className="mb-5 lg:mb-8 text-3xl md:text-5xl lg:text-7xl font-bold">Quality Footwear Components</h1>
-              <h2 className="mb-3 lg:mb-5 text-xl md:text-3xl lg:text-4xl font-bold">Your Global Partner in Excellence</h2>
-              <div className="inline-flex items-center justify-center w-full">
-                <hr className="w-32 lg:w-64 h-1 my-4 bg-gray-200 border-0 rounded" />
-              </div>
-              <p className="mt-3 text-md lg:mt-5 lg:text-xl">Dedicated to Excellence, Sustainability, and Innovation: Pioneering the Future of Footwear Components Worldwide</p>
-            </div>
-          </div>
-        </div>
-      </CarouselHero>
+      <CarouselHero contentImage={carouselImages} />
       <SectionHeader text="Our Locations" />
       <div className='sm:mt-4 md:mt-6 lg:mt-12'>
         <div className='lg:flex flex-row space-x-4 items-center justify-center hidden'>
@@ -132,28 +117,30 @@ const Home = () => {
       <SectionHeader text="Contact Us" />
       <div className='flex text-justify justify-center bg-auto my-8'>
         <div className='max-w-5xl px-5'>
-          <div className='flex flex-row flex-wrap lg:flex-nowrap'>
-            <div className='sm:md:w-full sm:md:flex sm:md:place-self-center sm:md:justify-center'>
-              <div className='relative aspect-square h-80 bg-white-200 rounded-3xl shadow-xl mr-8 mb-4'>
-                <Image
-                  src="/images/factory-photo/HSKR_Internal_001.jpg"
-                  alt="HSKR Solar"
-                  fill
-                  className='rounded-3xl'
-                  style={{ objectFit: "cover" }}
-                  />
+          <div className='flex flex-row lg:flex-row flex-wrap lg:flex-nowrap items-center justify-center'>
+            <div className='relative aspect-square h-80 bg-white-200 rounded-3xl shadow-xl lg:mr-8 lg:mb-4'>
+              <Image
+                src="/images/factory-photo/HSKR_Internal_001.jpg"
+                alt="HSKR Solar"
+                fill
+                className='rounded-3xl'
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className='text-left text-xl font-normal text-gray-900 mt-5 lg:mt-0'>
+              <div className='px-4'>
+                <p>At PT Handal Sukses Karya, collaboration is ingrained in our identity, extending beyond the confines of a traditional company. Whether you're exploring our diverse offerings, seeking information, or contemplating potential partnerships, we wholeheartedly invite you to connect. Our commitment to collaboration and open dialogue ensures that every inquiry, question, or suggestion becomes a valuable catalyst for improvement.</p>
+                <p className='mt-4 font-medium'>Together, let's transform possibilities into impactful outcomes.</p>
               </div>
             </div>
-            <div className='text-left text-xl font-normal text-gray-900'>
-              <p>At PT Handal Sukses Karya, collaboration is ingrained in our identity, extending beyond the confines of a traditional company. Whether you're exploring our diverse offerings, seeking information, or contemplating potential partnerships, we wholeheartedly invite you to connect. Our commitment to collaboration and open dialogue ensures that every inquiry, question, or suggestion becomes a valuable catalyst for improvement.</p>
-              <p className='mt-4 font-medium'>Together, let's transform possibilities into impactful outcomes.</p>
-              <Link href="/contact-us" className='mt-4 btn btn-warning'>
-                Collaborate with us
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                </svg>
-              </Link>
-            </div>
+          </div>
+          <div className='flex justify-center'>
+            <Link href="/contact-us" className='mt-4 btn btn-warning'>
+              Collaborate with us
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </Link>
           </div>
         </div>
       </div>

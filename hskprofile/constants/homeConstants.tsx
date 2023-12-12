@@ -3,19 +3,19 @@ const locationsData: cardData[] = [{
   altImg: "HSK Tangerang",
   title: "HSK Tangerang",
   desc: "Distinctive from our other plants, PT Handal Sukses Jepara boasts a specialized in-house painting line dedicated exclusively for EVA footwear components.",
-  link: ""
+  link: "/about?branch=tangerang"
 }, {
   image: "/images/factory-photo/HSKJ_001.jpg",
   altImg: "HSK Jepara",
   title: "HSK Jepara",
   desc: "Distinctive from our other plants, PT Handal Sukses Jepara boasts a specialized in-house painting line dedicated exclusively for EVA footwear components.",
-  link: ""
+  link: "/about?branch=jepara"
 }, {
   image: "/images/factory-photo/HSKR_001.jpg",
   altImg: "HSK Rembang",
   title: "HSK Rembang",
   desc: "Distinctive from our other plants, \nPT Handal Sukses Jepara boasts a specialized in-house painting line dedicated exclusively for EVA footwear components.",
-  link: ""
+  link: "/about?branch=rembang"
 }
 ]
 
