@@ -22,7 +22,7 @@ const Home = () => {
     '/images/factory-photo/HSKJ_001.jpg',
     '/images/factory-photo/HSKJ_004.jpg',
     '/images/factory-photo/HSKR_001.jpg',
-    '/images/factory-photo/HSKR_005.JPG',
+    '/images/factory-photo/HSKR_005.jpg',
     '/images/factory-photo/HSKT_001.jpg',
     '/images/factory-photo/HSKT_Internal_001.jpg',
   ]
