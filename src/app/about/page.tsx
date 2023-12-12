@@ -33,7 +33,7 @@ const Sustainability = ({ searchParams }: { searchParams: { [key: string]: strin
             </div>
             <div className='relative bg-white-200 shadow-xl h-96 aspect-[3/4]'>
               <Image
-                src="/images/stock/stock_001.jpg"
+                src="./images/stock/stock_001.jpg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -60,7 +60,7 @@ const Sustainability = ({ searchParams }: { searchParams: { [key: string]: strin
             </div>
             <div className='relative bg-white-200 shadow-xl h-80 aspect-[3/4]'>
               <Image
-                src="/images/stock/stock_003.jpg"
+                src="./images/stock/stock_003.jpg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
