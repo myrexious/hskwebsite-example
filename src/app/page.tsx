@@ -54,13 +54,6 @@ const Home = () => {
             ))}
           </div>
         </div>
-        <div className='mt-4 text-center'>
-          <Link href="/gallery">
-            <button className='btn btn-wide btn-warning'>
-              More Pictures
-            </button>
-          </Link>
-        </div>
       </div>
       <SectionHeader text="Partnerships" />
       <div className='mt-8'>
