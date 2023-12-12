@@ -26,7 +26,7 @@ const Rembang = () => {
           <div className='flex flex-row flex-wrap lg:flex-nowrap justify-center items-center lg:space-x-10'>
             <div className='relative aspect-video h-40 sm:md:my-4'>
               <Image
-                src="/images/factory-photo/HSKR_005.jpg"
+                src="/images/factory-photo/HSKR_002.jpg"
                 alt="people"
                 fill
                 style={{ objectFit: 'cover' }}
