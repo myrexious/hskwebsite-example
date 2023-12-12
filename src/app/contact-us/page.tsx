@@ -3,7 +3,7 @@ import React from 'react'
 const ContactUs = () => {
   return (
     <>
-      <div className="hero h-[16rem] " style={{ backgroundImage: 'url(/images/stock/office.jpg)' }}>
+      <div className="hero h-[16rem] " style={{ backgroundImage: 'url(./images/stock/office.jpg)' }}>
         <div className="hero-overlay bg-opacity-50"></div>
         <div className="hero-content text-center text-neutral-content pt-20">
           <div className="max-w-md">

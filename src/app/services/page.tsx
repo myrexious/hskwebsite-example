@@ -8,7 +8,7 @@ const Services = ({ searchParams }: { searchParams: { [key: string]: string | st
 
   return (
     <>
-      <div className="hero h-[36rem] bg-top" style={{ backgroundImage: 'url(/images/stock/stock_004.jpg)' }}>
+      <div className="hero h-[36rem] bg-top" style={{ backgroundImage: 'url(./images/stock/stock_004.jpg)' }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">

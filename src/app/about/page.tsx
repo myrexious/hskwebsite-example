@@ -11,7 +11,7 @@ const Sustainability = ({ searchParams }: { searchParams: { [key: string]: strin
 
   return (
     <>
-      <div className="hero h-[36rem]" style={{ backgroundImage: 'url(/images/factory-photo/HSKT_001.jpg)' }}>
+      <div className="hero h-[36rem]" style={{ backgroundImage: 'url(./images/factory-photo/HSKT_001.jpg)' }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
