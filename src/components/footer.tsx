@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="mx-auto w-full max-w-5xl">
           <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <h2 className="mb-6 text-sm font-semibold text-gray-300 uppercase">Company</h2>
+              <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
                   <Link href="/about" className=" hover:underline">About</Link>
                 </li>
@@ -25,8 +25,8 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Branches</h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <h2 className="mb-6 text-sm font-semibold text-gray-300 uppercase">Branches</h2>
+              <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
                   <a href="/about?branch=tangerang" className="hover:underline">Tangerang</a>
                 </li>
@@ -39,8 +39,8 @@ const Footer = () => {
               </ul>
             </div>
             <div className='col-span-2'>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <h2 className="mb-6 text-sm font-semibold text-gray-300 uppercase">Contact</h2>
+              <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
                   <p className="hover:underline">Phone: +62 621-2915-9080</p>
                 </li>

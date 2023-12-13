@@ -42,7 +42,7 @@ const ContactUs = () => {
                 </form>
               </div>
             </div>
-            <div className='flex flex-row flex-wrap lg:flex-col lg:flex-nowrap sm:md:items-center justify-center lg:space-y-5 space-x-0 md:space-x-5 leading-relaxed'>
+            <div className='flex flex-row flex-wrap lg:flex-col lg:flex-nowrap sm:md:items-center justify-center lg:space-y-5 space-x-0 md:space-x-5 lg:space-x-0 leading-relaxed'>
               <div className='bg-white h-[16rem] w-[20rem] lg:w-[24rem] lg:h-auto border-solid border-gray-400 shadow-lg p-10 my-2.5 lg:my-0'>
                 <h2 className='text-2xl font-semibold'>HSK Tangerang</h2>
                 <p className='text-sm mt-2'>Jl. Millennium Raya 3B, Blok H1</p>
