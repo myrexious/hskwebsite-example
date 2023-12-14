@@ -78,7 +78,7 @@ const Home = () => {
       </div>
       <SectionHeader text="Sustainability" />
       <div className='flex text-justify justify-center bg-auto mt-8'>
-        <div className='max-w-sm md:max-w-md lg:max-w-5xl px-5'>
+        <div className='max-w-5xl px-5'>
           <div className='flex flex-row relative text-center justify-center min-w-full space-x-10 lg:space-x-20'>
             <div className='relative aspect-square h-36 md:h-48 bg-white-200 rounded-full shadow-xl'>
               <Image
@@ -100,7 +100,7 @@ const Home = () => {
             </div>
           </div>
           <blockquote className='mt-8'>
-            <p className="text-2xl italic font-medium text-gray-900">"Our commitment to sustainability is woven into our promise to the future generation and the environment. We prioritize eco-friendly initiatives and aim to surpass industry standards, setting new benchmarks for sustainable business practices."</p>
+            <p className="text-2xl italic font-medium text-center text-gray-900">"Our commitment to sustainability is woven into our promise to the future generation and the environment. We prioritize eco-friendly initiatives and aim to surpass industry standards, setting new benchmarks for sustainable business practices."</p>
           </blockquote>
           <div className='flex text-justify justify-center mt-4'>
             <Link href="/sustainability" className='btn btn-warning '>Find Out More</Link>
