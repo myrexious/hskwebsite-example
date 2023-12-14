@@ -21,7 +21,7 @@ const Sustainability = ({ searchParams }: { searchParams: { [key: string]: strin
       </div>
       <div className='flex flex-row-reverse text-justify justify-center bg-auto my-8'>
         <div className='max-w-5xl px-5'>
-          <div className='flex flex-row flex-wrap lg:flex-nowrap space-y-5 space-x-5 lg:space-x-10 justify-center'>
+          <div className='flex flex-row flex-wrap lg:flex-nowrap space-y-5 lg:space-y-0 space-x-5 lg:space-x-10 justify-center'>
             <div className='flex flex-col sm:md:items-center justify-center leading-relaxed'>
               <h2 className="text-5xl font-semibold text-center lg:text-left">Vision</h2>
               <hr className="sm:w-6 md:w-36 lg:w-40 h-0.5 mt-2 mb-4 bg-zinc-400 border-0" />
@@ -44,7 +44,7 @@ const Sustainability = ({ searchParams }: { searchParams: { [key: string]: strin
       </div>
       <div className='flex text-justify justify-center bg-auto mt-24'>
         <div className='max-w-5xl px-5'>
-          <div className='flex flex-row-reverse flex-wrap lg:flex-nowrap sm:md:space-y-5 items-center justify-center'>
+          <div className='flex flex-row-reverse flex-wrap lg:flex-nowrap space-y-5 lg:space-y-0 items-center justify-center'>
             <div className='flex flex-col sm:md:items-center justify-center leading-relaxed lg:ml-10'>
               <h2 className="text-5xl font-semibold text-center lg:text-left">Mission</h2>
               <hr className="sm:w-6 md:w-44 lg:w-48 h-0.5 mt-2 mb-4 bg-zinc-400 border-0" />

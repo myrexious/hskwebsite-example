@@ -31,7 +31,7 @@ const Home = () => {
     <>
       <CarouselHero contentImage={carouselImages} />
       <SectionHeader text="Our Locations" />
-      <div className='sm:mt-4 md:mt-6 lg:mt-12'>
+      <div className='mt-4 md:mt-6 lg:mt-12'>
         <div className='lg:flex flex-row space-x-4 items-center justify-center hidden'>
           {locationsData.map((item: cardData, index: number) => (
             <div key={index}>
@@ -44,9 +44,9 @@ const Home = () => {
         </div>
       </div>
       <SectionHeader text="Our Services" />
-      <div className='sm:mt-4 md:mt-6 lg:mt-12 mx-4'>
+      <div className='mt-4 md:mt-6 lg:mt-12 mx-4'>
         <div className='flex items-center justify-center'>
-          <div className='grid grid-cols-2 md:grid-cols-3 gap-4 items-center justify-center'>
+          <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 items-center justify-center'>
             {servicesData.map((item: servicesInterface, index: number) => (
               <div key={index}>
                 <ImageOverlay item={item} />
